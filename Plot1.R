@@ -18,7 +18,7 @@ dev.off()
 png("Plot1.png", width = 480, height = 480)
 
 #Plot histogram for Plot1.R
-with(elecPowConsSubset, hist(Global_active_power, col="red"))
+with(elecPowConsSubset, hist(Global_active_power, col="red", main="Global Active Power"))
 dev.off()
 
 
